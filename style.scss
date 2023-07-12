@@ -1,0 +1,58 @@
+$main-red: #A20025;
+
+@import './styles/header.scss';
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('./assets/fonts/Proxima\ Nova/proximanova_regular.ttf');
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url("./assets/fonts/Gotham/gotham_light.otf")
+}
+
+*, ul, p, h1, h2, h3, h4, button, body, input, ::before, ::after, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  ul, ol, li {
+    list-style-type: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+  
+  html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 10px;
+    color: #000;
+    font-family: "Proxima Nova";
+    background-color: white;
+    scroll-behavior: smooth;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    overflow: hidden;
+  
+  }
+  
+  ._container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }

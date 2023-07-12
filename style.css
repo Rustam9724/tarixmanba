@@ -1,0 +1,202 @@
+.header {
+  padding: 19px 55px 17px 60px;
+  color: white;
+  background-color: rgba(160, 112, 72, 0.8);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 118.75%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.header .header__container {
+  max-width: 1860px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__container .header__logo {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 123.3333333333%;
+  letter-spacing: 0.9px;
+  margin-right: 2.5806451613%;
+}
+@media (max-width: 661px) {
+  .header .header__container .header__logo {
+    font-size: 2.2rem;
+  }
+}
+.header .header__container .header__sources {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #A20025;
+  padding: 13px 20px 14px 16px;
+  -webkit-column-gap: 6px;
+          column-gap: 6px;
+  color: #FFF;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 100%;
+  margin-right: 3.2432432432%;
+}
+.header .header__container .header__sources div {
+  width: 28px;
+  height: 17px;
+  background-image: url("./assets/images/header/manbalar.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .header__container .header__nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  padding-right: 20px;
+}
+.header .header__container .header__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 4.5405405405%;
+          column-gap: 4.5405405405%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 5px;
+}
+@media (max-width: 590px) {
+  .header .header__container .header__nav {
+    font-size: 1.2rem;
+  }
+}
+.header .header__container .header__cabinet {
+  margin-right: 1.3513513514%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 6px;
+          column-gap: 6px;
+  cursor: pointer;
+}
+.header .header__container .header__cabinet div {
+  width: 24px;
+  height: 24px;
+  background-image: url("./assets/images/header/user.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 562px) and (max-width: 992px) {
+  .header .header__container .header__cabinet p {
+    display: none;
+  }
+}
+@media (max-width: 561px) {
+  .header .header__container .header__cabinet {
+    margin-right: 25px;
+  }
+}
+.header .header__container .header__vip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+  min-width: 204px;
+  cursor: pointer;
+}
+.header .header__container .header__vip div {
+  width: 24px;
+  height: 24px;
+  background: url("./assets/images/header/vip.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 562px) and (max-width: 992px) {
+  .header .header__container .header__vip {
+    min-width: unset;
+  }
+  .header .header__container .header__vip p {
+    display: none;
+  }
+}
+@media (max-width: 562px) {
+  .header .header__container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding-right: 2.8645833333vw;
+    padding-left: 3.125vw;
+  }
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/Proxima Nova/proximanova_regular.ttf");
+}
+@font-face {
+  font-family: Gotham;
+  src: url("./assets/fonts/Gotham/gotham_light.otf");
+}
+*, ul, p, h1, h2, h3, h4, button, body, input, ::before, ::after, div {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-size: 10px;
+  color: #000;
+  font-family: "Proxima Nova";
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+._container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
