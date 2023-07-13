@@ -1,5 +1,6 @@
 .map-section {
     padding: 60px 0 20px;
+    margin-bottom: 20px;
 
     .map-section__container {
         display: flex;
@@ -22,7 +23,7 @@
                     align-items: center;
 
                     &:not(:last-child) {
-                        margin-bottom: 10px;
+                        margin-bottom: 5px;
                     }
 
                     &:hover {
