@@ -1,0 +1,97 @@
+.wellcome-section {
+    padding: 294px 0 377px;
+    background-image: url("../assets/images/wellcome-section/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+
+    .wellcome-section__container {
+        text-align: center;
+
+        .wellcome-section__insruction {
+            font-size: 2.2rem;
+            font-weight: 600;
+            line-height: 27/22 * 100%;
+            margin-bottom: 53px;
+
+            a {
+                font-weight: 700;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+        .wellcome-section__search {
+            width: 500px;
+            align-items: center;
+            padding: 13px 27px;
+            background-color: white;
+            margin: 0 auto 30px;
+
+            label {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            input {
+                outline: none;
+                width: 100%;
+                padding-right: 5px;
+
+                &::placeholder {
+                    color: #ACACAC;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    line-height: 100%;
+                }
+            }
+
+            div {
+                width: 24px;
+                height: 24px;
+                background-image: url('../assets/images/wellcome-section/search.svg');
+                cursor: pointer;
+            }
+        }
+
+        .wellcome-section__button {
+            padding: 17px 28px 19px;
+            background-color: $main-red;
+            color: #FFF;
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 100%;
+            margin-bottom: 70px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #640017;
+                transition: all 0.25s ease-in-out;
+            }
+        }
+
+        .wellcome-section__stat {
+            display: flex;
+            column-gap: 40px;
+            justify-content: center;
+
+            .wellcome-section__stat__item {
+                color: #FFF;
+                text-align: center;
+                font-size: 2.4rem;
+                font-weight: 600;
+                line-height: 34.5/27 * 100%;
+
+                p {
+                    &:last-child {
+                        color: #FFF;
+                        font-size: 3rem;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$main-red".
-        on line 36 of D:\web\Repos\tarixmanba\styles\header.scss
+        on line 61 of D:\web\Repos\tarixmanba\styles\wellcome-section.scss
 
-31:         }
-32: 
-33:         .header__sources {
-34:             display: flex;
-35:             align-items: center;
-36:             background-color: $main-red;
-37:             padding: 13px 20px 14px 16px;
-38:             column-gap: 6px;
-39:             color: #FFF;
-40:             font-size: 1.4rem;
-41:             font-weight: 700;
+56:             }
+57:         }
+58: 
+59:         .wellcome-section__button {
+60:             padding: 17px 28px 19px;
+61:             background-color: $main-red;
+62:             color: #FFF;
+63:             font-size: 1.4rem;
+64:             font-weight: 700;
+65:             line-height: 100%;
+66:             margin-bottom: 70px;
 
 Backtrace:
-D:\web\Repos\tarixmanba\styles\header.scss:36
+D:\web\Repos\tarixmanba\styles\wellcome-section.scss:61
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-red\".\A         on line 36 of D:\web\Repos\tarixmanba\styles\header.scss\A \A 31:         }\A 32: \A 33:         .header__sources {\A 34:             display: flex;\A 35:             align-items: center;\A 36:             background-color: $main-red;\A 37:             padding: 13px 20px 14px 16px;\A 38:             column-gap: 6px;\A 39:             color: #FFF;\A 40:             font-size: 1.4rem;\A 41:             font-weight: 700;"; }
+  content: "Error: Undefined variable: \"$main-red\".\A         on line 61 of D:\web\Repos\tarixmanba\styles\wellcome-section.scss\A \A 56:             }\A 57:         }\A 58: \A 59:         .wellcome-section__button {\A 60:             padding: 17px 28px 19px;\A 61:             background-color: $main-red;\A 62:             color: #FFF;\A 63:             font-size: 1.4rem;\A 64:             font-weight: 700;\A 65:             line-height: 100%;\A 66:             margin-bottom: 70px;"; }
