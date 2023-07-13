@@ -86,7 +86,45 @@
                     //     background-image: url("../assets/images/map/foto.svg");
                     // }
                 }
+
+                @media (max-width: 894px) {
+                    li {
+                        flex: 0 1 33%;
+                    }
+                }
+
+                @media (max-width: 731px) {
+                    li {
+                        flex: 0 1 45%;
+                    }
+                }
+
+                @media (max-width: 555px) {
+                    li {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                @media (max-width: 452px) {
+                    li {
+                        flex: 0 1 100%;
+                    }
+                }
             }
+
+            @media (max-width: 894px) {
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        @media (max-width: 762px) {
+            .map-section__list {
+                padding: 23px 21px 25px 21px;
+            } 
         }
 
         .map {
@@ -101,7 +139,9 @@
                 cursor: pointer;
 
                 svg {
-                     
+                    width: 100%;
+                    height: 100%;
+
                     path {
 
                         &:hover {
@@ -468,6 +508,44 @@
                 top: 57/631 * 100%;
                 right: 45/968 * 100%;
             }
+        }
+
+        @media (max-width: 1324px) {
+            .map {
+                min-width: 726px;
+                height: 473px;
+                max-height: 473px;
+            }
+        }
+
+        @media (max-width: 1074px) {
+            .map {
+                min-width: 545px;
+                height: 355px;
+                max-height: 355px;
+            }
+        }
+
+        @media (max-width: 574px) {
+            .map {
+                min-width: unset;
+                width: 304px;
+                height: 198px;
+                max-height: 198px;
+            }
+        }
+    }
+
+    @media (max-width: 1324px) {
+        .map-section__container {
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 894px) {
+        .map-section__container {
+            flex-direction: column;
+            row-gap: 20px;
         }
     }
 }

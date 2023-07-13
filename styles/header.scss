@@ -6,8 +6,10 @@
     font-weight: 600;
     line-height: 19/16 * 100%;
     flex-wrap: wrap;
-    position: relative;
+    position: absolute;
     z-index: 1;
+    top: 0;
+    width: 100%;
 
     .header__container {
         max-width: 1860px;
