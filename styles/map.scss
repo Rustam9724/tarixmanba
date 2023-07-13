@@ -1,67 +1,473 @@
 .map-section {
     padding: 60px 0 20px;
-}
-.map-section__container {
-}
-._container {
-}
-.map-section__list {
-}
-.map-list {
-}
-.map-list__arx {
-}
-.map-list__yozma {
-}
-.map-list__hujjatlar {
-}
-.map-list__arxiv {
-}
-.map-list__fono {
-}
-.map-list__matbuot {
-}
-.map-list__memorchilik {
-}
-.map-list__epigrafika {
-}
-.map-list__numizmatika {
-}
-.map-list__muhrlar {
-}
-.map-list__xalq {
-}
-.map-list__foto {
-}
-.map-section__map {
-}
-.map {
-}
-.map__qoraqalpoq {
-}
-.map__xorezm {
-}
-.map__navoi {
-}
-.map__buxoro {
-}
-.map__qarshi {
-}
-.map__samarqand {
-}
-.map__termiz {
-}
-.map__jizzax {
-}
-.map__sirdaryo {
-}
-.map__tashkent {
-}
-.map__namangan {
-}
-.map__fargona {
-}
-.map__andijan {
-}
-.map__folders {
+
+    .map-section__container {
+        display: flex;
+        justify-content: space-between;
+
+        .map-section__list {
+            padding: 23px 21px 25px 52px;
+            background-color: $main-grey;
+
+            ul {
+
+                li {
+                    color: #313131;
+                    font-size: 1.6rem;
+                    line-height: 250%;
+                    font-weight: 400;
+                    cursor: pointer;
+                    display: flex;
+                    column-gap: 10px;
+                    align-items: center;
+
+                    &:not(:last-child) {
+                        margin-bottom: 10px;
+                    }
+
+                    &:hover {
+                        color: $main-red;
+                        transition: all 0.5s ease;
+                        
+                        svg {
+                            
+                            rect {
+                                transition: all 0.5s ease;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    // &.map-list__arx {
+                    //     background-image: url("../assets/images/map/arxeologiya.svg");
+                    // }
+
+                    // &.map-list__yozma {
+                    //     background-image: url("../assets/images/map/yozma.svg");
+                    // }
+
+                    // &.map-list__hujjatlar {
+                    //     background-image: url("../assets/images/map/hujjatlar.svg");
+                    // }
+
+                    // &.map-list__arxiv {
+                    //     background-image: url("../assets/images/map/arxiv.svg");
+                    // }
+
+                    // &.map-list__fono {
+                    //     background-image: url("../assets/images/map/fono.svg");
+                    // }
+
+                    // &.map-list__matbuot {
+                    //     background-image: url("../assets/images/map/matbuot.svg");
+                    // }
+
+                    // &.map-list__memorchilik {
+                    //     background-image: url("../assets/images/map/memorchilik.svg");
+                    // }
+
+                    // &.map-list__epigrafika {
+                    //     background-image: url("../assets/images/map/epigrafika.svg");
+                    // }
+
+                    // &.map-list__numizmatika {
+                    //     background-image: url("../assets/images/map/numizmatika.svg");
+                    // }
+
+                    // &.map-list__muhrlar {
+                    //     background-image: url("../assets/images/map/muhrlar.svg");
+                    // }
+
+                    // &.map-list__xalq {
+                    //     background-image: url("../assets/images/map/xalq.svg");
+                    // }
+
+                    // &.map-list__foto {
+                    //     background-image: url("../assets/images/map/foto.svg");
+                    // }
+                }
+            }
+        }
+
+        .map {
+            min-width: 968px;
+            height: 631px;
+            max-height: 631px;
+            position: relative;
+
+            & > * {
+                position: absolute;
+                background-size: contain;
+                cursor: pointer;
+
+                svg {
+                     
+                    path {
+
+                        &:hover {
+                            fill: $main-red
+                        }
+                    }
+                }
+            }
+
+            .map__qoraqalpoq {
+                width: 365/968 * 100%;
+                aspect-ratio: 365/354;
+                // background-image: url("../assets/images/map/qoraqalpoq.svg");
+                top: 0;
+                left: 0;
+                position: relative;
+
+                &:hover::after {
+                    content: "Qaraqalpog'iston";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 35%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 50%;
+                }
+            } 
+
+            .map__xorezm {
+                width: 135/968 * 100%;
+                aspect-ratio: 135/112;
+                // background-image: url("../assets/images/map/xorazm.svg");
+                top: 274/631 * 100%;
+                left: 150/631 * 100%;
+
+                &:hover::after {
+                    content: "Xorazm";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 35%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 50%;
+                }
+            }
+
+            .map__navoi {
+                width: 285/968 * 100%;
+                aspect-ratio: 285/320;
+                // background-image: url("../assets/images/map/navoi.svg");
+                top: 146/631 * 100%;
+                left: 208/631 * 100%;
+
+                &:hover::after {
+                    content: "Navoi";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 35%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 50%;
+                }
+
+                svg {
+
+                    path {
+                        fill: #F1F1F1;
+
+                        &:hover {
+                            fill: $main-red
+                        }
+                    }
+                }
+            }
+
+            .map__buxoro {
+                width: 179/968 * 100%;
+                aspect-ratio: 179/188;
+                // background-image: url("../assets/images/map/buxoro.svg");
+                top: 313/631 * 100%;
+                left: 225/631 * 100%;
+
+                &:hover::after {
+                    content: "Buxoro";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 35%;
+                    z-index: 1;
+                    background-color: white;
+                    left: -90%;
+                }
+            }
+
+            .map__qarshi {
+                width: 186/968 * 100%;
+                aspect-ratio: 186/115;
+                // background-image: url("../assets/images/map/qarshi.svg");
+                top: 455/631 * 100%;
+                left: 302/631 * 100%;
+
+                &:hover::after {
+                    content: "Qarshi";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 35%;
+                    z-index: 2;
+                    background-color: white;
+                    left: -80%;
+                }
+            }
+
+            .map__samarqand {
+                width: 134/968 * 100%;
+                aspect-ratio: 134/98;
+                // background-image: url("../assets/images/map/samarqand.svg");
+                top: 380/631 * 100%;
+                left: 330/631 * 100%;
+
+                &:hover::after {
+                    content: "Samarqand";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: -30%;
+                    z-index: 2;
+                    background-color: white;
+                    left: -80%;
+                }
+            }
+
+            .map__termiz {
+                width: 105/968 * 100%;
+                aspect-ratio: 105/130;
+                // background-image: url("../assets/images/map/termiz.svg");
+                bottom: 0.9%;
+                left: 59.8%;
+
+                &:hover::after {
+                    content: "Termiz";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 35%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 75%;
+                }
+            }
+
+            .map__jizzax {
+                width: 117/968 * 100%;
+                aspect-ratio: 117/127;
+                // background-image: url("../assets/images/map/jizzax.svg");
+                top: 54%;
+                left: 60%;
+
+                &:hover::after {
+                    content: "Jizzax";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 70%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 50%;
+                }
+            }
+
+            .map__sirdaryo {
+                width: 58/968 * 100%;
+                aspect-ratio: 58/83;
+                // background-image: url("../assets/images/map/sirdaryo.svg");
+                left: 68%;
+                top: 58%;
+
+                &:hover::after {
+                    content: "Gulistan";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 35%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 75%;
+                }
+            }
+
+            .map__tashkent {
+                width: 146/968 * 100%;
+                aspect-ratio: 146/158;
+                // background-image: url("../assets/images/map/tashkent.svg");
+                left: 71%;
+                top: 43%;
+
+                &:hover::after {
+                    content: "Toshkent";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: -10%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 50%;
+                }
+            }
+
+            .map__namangan {
+                width: 101/968 * 100%;
+                aspect-ratio: 101/70;
+                // background-image: url("../assets/images/map/namangan.svg");
+                left: 80.5%;
+                top: 52%;
+
+                &:hover::after {
+                    content: "Namangan";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: -50%;
+                    z-index: 2;
+                    background-color: white;
+                    left: 50%;
+                }
+            }
+
+            .map__fargona {
+                width: 105/968 * 100%;
+                aspect-ratio: 105/66;
+                // background-image: url("../assets/images/map/fargona.svg");
+                left: 80%;
+                top: 60%;
+
+                &:hover::after {
+                    content: "Farg'ona";
+                    position: absolute;
+                    width: 200px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: 100%;
+                    z-index: 2;
+                    background-color: white;
+                    left: -50%;
+                }
+            }
+
+            .map__andijan {
+                width: 88/968 * 100%;
+                aspect-ratio: 88/51;
+                // background-image: url("../assets/images/map/andijan.svg");
+                right: 4%;
+                top: 57.5%;
+
+                &:hover::after {
+                    content: "Andijon";
+                    position: absolute;
+                    width: 100px;
+                    height: 69px;
+                    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
+                    color: #313131;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 30/18 * 100%;
+                    text-align: center;
+                    padding-top: 18px;
+                    top: -100%;
+                    z-index: 2;
+                    background-color: white;
+                    left: -50%;
+                }
+            }
+
+            .map__folders {
+                width: 100/968 * 100%;
+                aspect-ratio: 1;
+                background-image: url("../assets/images/map/folders.svg");
+                top: 57/631 * 100%;
+                right: 45/968 * 100%;
+            }
+        }
+    }
 }
