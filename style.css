@@ -5,7 +5,9 @@
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 118.75%;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1; }
   .header .header__container {
     max-width: 1860px;
     display: flex;
@@ -110,6 +112,9 @@
         font-weight: 700;
         text-decoration: underline;
         cursor: pointer; }
+    @media (max-width: 508px) {
+      .wellcome-section .wellcome-section__container .wellcome-section__insruction {
+        font-size: 1.7rem; } }
     .wellcome-section .wellcome-section__container .wellcome-section__search {
       width: 500px;
       align-items: center;
@@ -134,6 +139,9 @@
         height: 24px;
         background-image: url("../assets/images/wellcome-section/search.svg");
         cursor: pointer; }
+    @media (max-width: 534px) {
+      .wellcome-section .wellcome-section__container .wellcome-section__search {
+        width: 95%; } }
     .wellcome-section .wellcome-section__container .wellcome-section__button {
       padding: 17px 28px 19px;
       background-color: #A20025;
@@ -149,7 +157,9 @@
     .wellcome-section .wellcome-section__container .wellcome-section__stat {
       display: flex;
       column-gap: 40px;
-      justify-content: center; }
+      justify-content: center;
+      flex-wrap: wrap;
+      row-gap: 20px; }
       .wellcome-section .wellcome-section__container .wellcome-section__stat .wellcome-section__stat__item {
         color: #FFF;
         text-align: center;
@@ -159,8 +169,28 @@
         .wellcome-section .wellcome-section__container .wellcome-section__stat .wellcome-section__stat__item p:last-child {
           color: #FFF;
           font-size: 3rem;
-          font-weight: 700; }
+          font-weight: 700;
+          margin-top: 10px; }
+      @media (max-width: 452px) {
+        .wellcome-section .wellcome-section__container .wellcome-section__stat .wellcome-section__stat__item {
+          font-size: 1.8rem; } }
 
+@media (max-width: 1349px) {
+  .wellcome-section {
+    padding-top: 30vw;
+    padding-bottom: 19.6354166667vw; } }
+@media (max-width: 614px) {
+  .wellcome-section {
+    padding-top: 40vw; } }
+@media (max-width: 396px) {
+  .wellcome-section {
+    padding-top: 55vw; } }
+@media (max-width: 363px) {
+  .wellcome-section {
+    padding-top: 65vw; } }
+@media (max-width: 343px) {
+  .wellcome-section {
+    padding-top: 80vw; } }
 @font-face {
   font-family: "Proxima Nova";
   src: url("./assets/fonts/Proxima Nova/proximanova_regular.ttf"); }
@@ -203,5 +233,10 @@ html, body {
   max-width: 1350px;
   margin: 0 auto;
   padding: 0 15px; }
+
+.page {
+  position: absolute;
+  width: 100%;
+  top: 0; }
 
 /*# sourceMappingURL=style.css.map */

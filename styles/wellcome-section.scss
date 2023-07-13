@@ -22,6 +22,12 @@
             }
         }
 
+        @media (max-width: 508px) {
+            .wellcome-section__insruction {
+                font-size: 1.7rem;
+            }
+        }
+
         .wellcome-section__search {
             width: 500px;
             align-items: center;
@@ -56,6 +62,12 @@
             }
         }
 
+        @media (max-width: 534px) {
+            .wellcome-section__search {
+                width: 95%;
+            }
+        }
+
         .wellcome-section__button {
             padding: 17px 28px 19px;
             background-color: $main-red;
@@ -76,6 +88,8 @@
             display: flex;
             column-gap: 40px;
             justify-content: center;
+            flex-wrap: wrap;
+            row-gap: 20px;
 
             .wellcome-section__stat__item {
                 color: #FFF;
@@ -89,9 +103,47 @@
                         color: #FFF;
                         font-size: 3rem;
                         font-weight: 700;
+                        margin-top: 10px;
                     }
                 }
             }
+
+            @media (max-width: 452px) { 
+                .wellcome-section__stat__item {
+                    font-size: 1.8rem;
+                }
+            }
         }
+    }
+}
+
+@media (max-width: 1349px) {
+    .wellcome-section {
+        padding-top: 30vw;
+        padding-bottom: 377/1920 * 100vw;
+    }
+}
+
+@media (max-width: 614px) {
+    .wellcome-section {
+        padding-top: 40vw;
+    }
+}
+
+@media (max-width: 396px) {
+    .wellcome-section {
+        padding-top: 55vw;
+    }
+}
+
+@media (max-width: 363px) {
+    .wellcome-section {
+        padding-top: 65vw;
+    }
+}
+
+@media (max-width: 343px) {
+    .wellcome-section {
+        padding-top: 80vw;
     }
 }

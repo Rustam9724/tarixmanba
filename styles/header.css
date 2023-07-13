@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$main-red".
-        on line 36 of D:\web\Repos\tarixmanba\styles\header.scss
+        on line 34 of D:\web\Repos\tarixmanba\styles\header.scss
 
-31:         }
-32: 
-33:         .header__sources {
-34:             display: flex;
-35:             align-items: center;
-36:             background-color: $main-red;
-37:             padding: 13px 20px 14px 16px;
-38:             column-gap: 6px;
-39:             color: #FFF;
-40:             font-size: 1.4rem;
-41:             font-weight: 700;
+29:         }
+30: 
+31:         .header__sources {
+32:             display: flex;
+33:             align-items: center;
+34:             background-color: $main-red;
+35:             padding: 13px 20px 14px 16px;
+36:             column-gap: 6px;
+37:             color: #FFF;
+38:             font-size: 1.4rem;
+39:             font-weight: 700;
 
 Backtrace:
-D:\web\Repos\tarixmanba\styles\header.scss:36
+D:\web\Repos\tarixmanba\styles\header.scss:34
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-red\".\A         on line 36 of D:\web\Repos\tarixmanba\styles\header.scss\A \A 31:         }\A 32: \A 33:         .header__sources {\A 34:             display: flex;\A 35:             align-items: center;\A 36:             background-color: $main-red;\A 37:             padding: 13px 20px 14px 16px;\A 38:             column-gap: 6px;\A 39:             color: #FFF;\A 40:             font-size: 1.4rem;\A 41:             font-weight: 700;"; }
+  content: "Error: Undefined variable: \"$main-red\".\A         on line 34 of D:\web\Repos\tarixmanba\styles\header.scss\A \A 29:         }\A 30: \A 31:         .header__sources {\A 32:             display: flex;\A 33:             align-items: center;\A 34:             background-color: $main-red;\A 35:             padding: 13px 20px 14px 16px;\A 36:             column-gap: 6px;\A 37:             color: #FFF;\A 38:             font-size: 1.4rem;\A 39:             font-weight: 700;"; }

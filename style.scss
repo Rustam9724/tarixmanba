@@ -18,42 +18,48 @@ $main-red: #A20025;
     margin: 0;
     box-sizing: border-box;
     border: none;
-  }
-  a {
-    text-decoration: none;
-  }
+}
+
+a {
+  text-decoration: none;
+}
   
-  ul, ol, li {
-    list-style-type: none;
-  }
+ul, ol, li {
+  list-style-type: none;
+}
   
-  img {
-    vertical-align: top;
-  }
+img {
+  vertical-align: top;
+}
   
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: inherit;
-    font-size: inherit;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
   
-  html, body {
-    height: 100%;
-    line-height: 1;
-    font-size: 10px;
-    color: #000;
-    font-family: "Proxima Nova";
-    background-color: white;
-    scroll-behavior: smooth;
-  }
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-size: 10px;
+  color: #000;
+  font-family: "Proxima Nova";
+  background-color: white;
+  scroll-behavior: smooth;
+}
   
-  .wrapper {
-    min-height: 100%;
-    overflow: hidden;
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;  
+}
   
-  }
-  
-  ._container {
-    max-width: 1350px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
+._container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}

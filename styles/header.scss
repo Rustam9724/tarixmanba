@@ -6,10 +6,8 @@
     font-weight: 600;
     line-height: 19/16 * 100%;
     flex-wrap: wrap;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // width: 100%;
+    position: relative;
+    z-index: 1;
 
     .header__container {
         max-width: 1860px;
