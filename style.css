@@ -778,6 +778,61 @@
   }
 }
 
+.last-added {
+  margin-bottom: 55px;
+}
+.last-added .last-added__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 9px;
+          column-gap: 9px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 18px;
+}
+.last-added .last-added__title div {
+  width: 20px;
+  height: 24px;
+  background-image: url("../../assets/images/last-added/title.svg");
+}
+.last-added .last-added__title h2 {
+  color: #242424;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 123.3333333333%;
+}
+.last-added .last-added__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.last-added .last-added__body .last-added__list {
+  color: #313131;
+  font-size: 1.8rem;
+  line-height: 166.667%;
+}
+.last-added .last-added__body .last-added__list h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.last-added .last-added__body .last-added__list .last-added__list__trait {
+  width: 100px;
+  height: 2px;
+  background-color: #A20025;
+  margin-bottom: 18px;
+}
+.last-added .last-added__body .last-added__list p {
+  font-weight: 400;
+}
+.last-added .last-added__body .last-added__list p:not(:last-child) {
+  margin-bottom: 18px;
+}
+
 @font-face {
   font-family: "Proxima Nova";
   src: url("./assets/fonts/Proxima Nova/proximanova_regular.ttf");

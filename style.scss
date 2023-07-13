@@ -1,9 +1,12 @@
 $main-red: #A20025;
-$main-grey: #F1F1F1;
+$main-grey: #F1F1F1; 
+$title-color: #242424;
+$text-color: #313131;
 
-@import './styles/header.scss';
-@import './styles/wellcome-section.scss';
-@import './styles/map.scss';
+@import './styles/header/header.scss';
+@import './styles/wellcome-section/wellcome-section.scss';
+@import './styles/map/map.scss';
+@import './styles/last-added/last-added.scss';
 
 @font-face {
   font-family: "Proxima Nova";
