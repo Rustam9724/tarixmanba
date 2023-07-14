@@ -25,13 +25,17 @@
                     padding-left: 32px;
                     background-position: left center;
 
+                    &.active {
+                        color: $main-red;
+                        font-weight: 600;
+                    }
+
                     &:not(:last-child) {
                         margin-bottom: 5px;
                     }
 
                     &:hover {
                         color: $main-red;
-                        // transition: all 0.25s ease;
                         font-weight: 600;
                         
                         svg {
@@ -506,7 +510,7 @@
                 }
             }
 
-            .map__folders {
+            .map__choosed-category {
                 width: 100/968 * 100%;
                 aspect-ratio: 1;
                 background-image: url("../assets/images/map/folders.svg");

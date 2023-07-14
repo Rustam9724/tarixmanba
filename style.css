@@ -359,6 +359,10 @@
   padding-left: 32px;
   background-position: left center;
 }
+.map-section .map-section__container .map-section__list ul li.active {
+  color: #A20025;
+  font-weight: 600;
+}
 .map-section .map-section__container .map-section__list ul li:not(:last-child) {
   margin-bottom: 5px;
 }
@@ -787,7 +791,7 @@
   background-color: white;
   left: -50%;
 }
-.map-section .map-section__container .map .map__folders {
+.map-section .map-section__container .map .map__choosed-category {
   width: 10.3305785124%;
   aspect-ratio: 1;
   background-image: url("../assets/images/map/folders.svg");
