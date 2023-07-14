@@ -169,7 +169,7 @@
 }
 .wellcome-section {
   padding: 294px 0 377px;
-  background-image: url("../../assets/images/wellcome-section/background.jpg");
+  background-image: url("./assets/images/wellcome-section/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
