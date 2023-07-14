@@ -954,13 +954,19 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   overflow-x: hidden;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
 }
 .artifacts .artifacts__container .artifacts__items .artifact {
   color: #313131;
   cursor: pointer;
-  width: 21.875vw;
-  max-width: 315px;
   background-color: white;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 23.333%;
+          flex: 0 1 23.333%;
+  min-width: 315px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .artifacts .artifacts__container .artifacts__items .artifact .artifact__image {
   width: 100%;
@@ -1029,7 +1035,15 @@
   align-items: center;
   background-color: #F1F1F1;
 }
-@media (max-width: 992px) {
+@media (max-width: 1440px) {
+  .artifacts .artifacts__container .artifacts__items .artifact {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 24%;
+            flex: 0 1 24%;
+    min-width: 24%;
+  }
+}
+@media (max-width: 1018px) {
   .artifacts .artifacts__container .artifacts__items .artifact {
     width: 47.4vw;
     min-width: 47.4vw;
@@ -1057,7 +1071,13 @@
 .artifacts .artifacts__container .artifacts__items .artifact:hover .artifact__arrow svg path {
   stroke: white;
 }
-@media (max-width: 992px) {
+@media (max-width: 1440px) {
+  .artifacts .artifacts__container .artifacts__items {
+    -webkit-column-gap: 1.3888888889vw;
+            column-gap: 1.3888888889vw;
+  }
+}
+@media (max-width: 1018px) {
   .artifacts .artifacts__container .artifacts__items {
     -webkit-column-gap: 2.222%;
             column-gap: 2.222%;
@@ -1086,17 +1106,27 @@
     padding: 20px 20px 88px 38px;
   }
 }
-.history .history__container .history__arrows {
+.history .history__container .carousel__arrows {
   margin-bottom: 29px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
 }
-.history .history__container .history__arrows div {
+.history .history__container .carousel__arrows div {
   background-color: rgba(36, 36, 36, 0.3);
 }
-.history .history__container .history__arrows div.active {
+.history .history__container .carousel__arrows div.active {
   background-color: #242424;
+}
+.history .history__container .carousel__arrows div.active svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .history .history__container .history__title {
   font-size: 3rem;
@@ -1251,7 +1281,7 @@ html, body {
   -webkit-column-gap: 10px;
           column-gap: 10px;
 }
-.carousel-arrows div {
+.carousel-arrows .carousel__arrow {
   width: 30px;
   height: 30px;
   background-color: rgba(36, 36, 36, 0.119);
@@ -1266,14 +1296,14 @@ html, body {
           align-items: center;
   cursor: pointer;
 }
-.carousel-arrows div:last-child svg {
+.carousel-arrows .carousel__arrow:last-child svg {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.carousel-arrows div.active {
+.carousel-arrows .carousel__arrow.active {
   background-color: rgba(36, 36, 36, 0.4);
 }
-.carousel-arrows div.active:hover {
+.carousel-arrows .carousel__arrow.active:hover {
   background-color: #A20025;
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
