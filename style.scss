@@ -9,15 +9,11 @@ $text-color: #313131;
 @import './styles/last-added/last-added.scss';
 @import './styles/artefacts/artefacts.scss';
 @import './styles/history/history.scss';
+@import './styles/info-section/info-section.scss';
 
 @font-face {
   font-family: "Proxima Nova";
   src: url('./assets/fonts/Proxima\ Nova/proximanova_regular.ttf');
-}
-
-@font-face {
-  font-family: Gotham;
-  src: url("./assets/fonts/Gotham/gotham_light.otf")
 }
 
 *, ul, p, h1, h2, h3, h4, button, body, input, ::before, ::after, div {
