@@ -1084,6 +1084,26 @@
   line-height: 181.25%;
 }
 
+.footer {
+  padding: 31px 29px;
+  background-color: #A07048;
+}
+.footer .footer__container {
+  max-width: 1804px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .footer__container .footer__text {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 118.75%;
+}
+
 @font-face {
   font-family: "Proxima Nova";
   src: url("./assets/fonts/Proxima Nova/proximanova_regular.ttf");
