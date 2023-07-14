@@ -1,0 +1,170 @@
+.artifacts {
+    margin-bottom: 60px;
+
+    .artifacts__container {
+
+        .artifacts__header {
+            display: flex;
+            column-gap: 30px;
+            align-items: flex-end;
+            margin-bottom: 29px;
+
+            .artifacts__title {
+                color: $title-color;
+                font-size: 3.6rem;
+                font-weight: 700;
+                line-height: 100%;
+            }
+
+            .artifacts__all {
+                color: $main-red;
+                font-size: 1.4rem;
+                font-weight: 700;
+                line-height: 17/14 * 100%;
+                text-transform: uppercase;
+            }
+
+            .artifacts__arrows {
+                margin-left: auto;
+                display: flex;
+                column-gap: 10px;
+
+                div {
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgba(36, 36, 36, 0.119);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+
+                    &:last-child {
+                        
+                        svg {
+                            transform: rotate(180deg);
+                        }
+                    }
+
+                    &.active {
+                        background-color: rgba(36, 36, 36, 0.4);
+
+                        &:hover {
+                            background-color: $main-red;
+                            transition: all 0.25s ease-out;
+                        }
+                    }
+                }
+            }
+        }
+
+        .artifacts__items {
+            display: flex;
+            justify-content: space-between;
+
+            .artifact {
+                flex: 0 1 23.333%;
+                color: $text-color;
+                cursor: pointer;
+
+                .artifact__image {
+                    width: 100%;
+                    aspect-ratio: 315/340;
+                    margin-bottom: 12px;
+                }
+
+                .artifact__text {
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    line-height: 22/18 * 100%;
+                    margin-bottom: 20px;
+                }
+
+                .artifact__footer {
+                    display: flex;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    line-height: 15/12 * 100%;
+
+                    & > * {
+                        display: flex;
+                        column-gap: 6px;
+                        align-items: center;
+
+                        div {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+
+                    .artifact__views {
+                        margin-right: 15px;
+
+                        div {
+                            background: url("../../assets/images/artifacts/views.svg") no-repeat;
+                        }
+                    }
+
+                    .artifact__stars {
+                        margin-right: 15px;
+
+                        div {
+                            background: url("../../assets/images/artifacts/star.svg") no-repeat;
+                        }
+                    }
+
+                    .artifact__comments {
+
+                        div {
+                            background: url("../../assets/images/artifacts/comments.svg");
+                        }
+                    }
+
+                    .artifact__arrow {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 44px;
+                        height: 44px;
+                        margin-left: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: $main-grey;
+                    }
+                }
+            }
+
+            .artifact:hover {
+
+                .artifact__image {
+                    overflow: hidden;
+
+                    img {
+                        width: 110%;
+                        height: 110%;
+                    }
+                }
+                
+                .artifact__arrow {
+                    background-color: $main-red;
+                    transition: all 0.25s ease-out;
+                    
+                        svg {
+
+                            path {
+                                stroke: white;
+                            }
+                        }
+                    } 
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

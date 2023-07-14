@@ -7,6 +7,7 @@ $text-color: #313131;
 @import './styles/wellcome-section/wellcome-section.scss';
 @import './styles/map/map.scss';
 @import './styles/last-added/last-added.scss';
+@import './styles/artefacts/artefacts.scss';
 
 @font-face {
   font-family: "Proxima Nova";
@@ -50,7 +51,6 @@ html, body {
   font-family: "Proxima Nova";
   background-color: white;
   scroll-behavior: smooth;
-  // position: relative;
 }
   
 .wrapper {
@@ -62,4 +62,17 @@ html, body {
   max-width: 1350px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+._ibg {
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
