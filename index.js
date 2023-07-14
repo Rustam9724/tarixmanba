@@ -6,7 +6,7 @@ document.querySelector('.wellcome-section__search div').addEventListener('click'
 // ------------ Изменение выбранного пункта на карте ---------------------------------- //
 document.querySelectorAll('.map-list li').forEach((mapListItem, index, mapListItems) => (
     mapListItem.addEventListener('click', () => {
-        document.querySelector('.map__choosed-category').style.backgroundImage = `url("../assets/images/map/${mapListItem.dataset.category}.svg")`
+        document.querySelector('.map__choosed-category').style.backgroundImage = `url("./assets/images/map/${mapListItem.dataset.category}.svg")`
         mapListItems.forEach(mapListItem => {
             mapListItem.classList.remove('active');
         })

@@ -854,7 +854,7 @@
 .last-added .last-added__title div {
   width: 20px;
   height: 24px;
-  background-image: url("../../assets/images/last-added/title.svg");
+  background-image: url("./assets/images/last-added/title.svg");
 }
 .last-added .last-added__title h2 {
   color: #242424;
