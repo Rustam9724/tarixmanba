@@ -244,7 +244,7 @@
 .wellcome-section .wellcome-section__container .wellcome-section__search div {
   width: 24px;
   height: 24px;
-  background-image: url("../assets/images/wellcome-section/search.svg");
+  background-image: url("./assets/images/wellcome-section/search.svg");
   cursor: pointer;
 }
 @media (max-width: 534px) {
@@ -376,40 +376,40 @@
   opacity: 1;
 }
 .map-section .map-section__container .map-section__list ul li.map-list__arx {
-  background-image: url("../assets/images/map/arxeologiya.svg");
+  background-image: url("./assets/images/map/arxeologiya.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__yozma {
-  background-image: url("../assets/images/map/yozma.svg");
+  background-image: url("./assets/images/map/yozma.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__hujjatlar {
-  background-image: url("../assets/images/map/hujjatlar.svg");
+  background-image: url("./assets/images/map/hujjatlar.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__arxiv {
-  background-image: url("../assets/images/map/arxiv.svg");
+  background-image: url("./assets/images/map/arxiv.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__fono {
-  background-image: url("../assets/images/map/fono.svg");
+  background-image: url("./assets/images/map/fono.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__matbuot {
-  background-image: url("../assets/images/map/matbuot.svg");
+  background-image: url("./assets/images/map/matbuot.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__memorchilik {
-  background-image: url("../assets/images/map/memorchilik.svg");
+  background-image: url("./assets/images/map/memorchilik.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__epigrafika {
-  background-image: url("../assets/images/map/epigrafika.svg");
+  background-image: url("./assets/images/map/epigrafika.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__numizmatika {
-  background-image: url("../assets/images/map/numizmatika.svg");
+  background-image: url("./assets/images/map/numizmatika.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__muhrlar {
-  background-image: url("../assets/images/map/muhrlar.svg");
+  background-image: url("./assets/images/map/muhrlar.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__xalq {
-  background-image: url("../assets/images/map/xalq.svg");
+  background-image: url("./assets/images/map/xalq.svg");
 }
 .map-section .map-section__container .map-section__list ul li.map-list__foto {
-  background-image: url("../assets/images/map/foto.svg");
+  background-image: url("./assets/images/map/foto.svg");
 }
 @media (max-width: 894px) {
   .map-section .map-section__container .map-section__list ul li {
@@ -794,7 +794,7 @@
 .map-section .map-section__container .map .map__choosed-category {
   width: 10.3305785124%;
   aspect-ratio: 1;
-  background-image: url("../assets/images/map/folders.svg");
+  background-image: url("./assets/images/map/folders.svg");
   top: 9.0332805071%;
   right: 4.6487603306%;
 }
@@ -1006,16 +1006,16 @@
   margin-right: 15px;
 }
 .artifacts .artifacts__container .artifacts__items .artifact .artifact__footer .artifact__views div {
-  background: url("../../assets/images/artifacts/views.svg") no-repeat;
+  background: url("./assets/images/artifacts/views.svg") no-repeat;
 }
 .artifacts .artifacts__container .artifacts__items .artifact .artifact__footer .artifact__stars {
   margin-right: 15px;
 }
 .artifacts .artifacts__container .artifacts__items .artifact .artifact__footer .artifact__stars div {
-  background: url("../../assets/images/artifacts/star.svg") no-repeat;
+  background: url("./assets/images/artifacts/star.svg") no-repeat;
 }
 .artifacts .artifacts__container .artifacts__items .artifact .artifact__footer .artifact__comments div {
-  background: url("../../assets/images/artifacts/comments.svg");
+  background: url("./assets/images/artifacts/comments.svg");
 }
 .artifacts .artifacts__container .artifacts__items .artifact .artifact__footer .artifact__arrow {
   display: -webkit-box;
@@ -1095,7 +1095,7 @@
 }
 .history .history__container .history__body {
   padding: 20px 20px 88px 50px;
-  background-image: url("../../assets/images/history/background.jpg");
+  background-image: url(".assets/images/history/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
