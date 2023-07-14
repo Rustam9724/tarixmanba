@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$main-red".
-        on line 36 of D:\web\Repos\tarixmanba\styles\header.scss
+        on line 36 of D:\web\Repos\tarixmanba\styles\header\header.scss
 
 31:         }
 32: 
@@ -15,7 +15,7 @@ Error: Undefined variable: "$main-red".
 41:             font-weight: 700;
 
 Backtrace:
-D:\web\Repos\tarixmanba\styles\header.scss:36
+D:\web\Repos\tarixmanba\styles\header\header.scss:36
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-red\".\A         on line 36 of D:\web\Repos\tarixmanba\styles\header.scss\A \A 31:         }\A 32: \A 33:         .header__sources {\A 34:             display: flex;\A 35:             align-items: center;\A 36:             background-color: $main-red;\A 37:             padding: 13px 20px 14px 16px;\A 38:             column-gap: 6px;\A 39:             color: #FFF;\A 40:             font-size: 1.4rem;\A 41:             font-weight: 700;"; }
+  content: "Error: Undefined variable: \"$main-red\".\A         on line 36 of D:\web\Repos\tarixmanba\styles\header\header.scss\A \A 31:         }\A 32: \A 33:         .header__sources {\A 34:             display: flex;\A 35:             align-items: center;\A 36:             background-color: $main-red;\A 37:             padding: 13px 20px 14px 16px;\A 38:             column-gap: 6px;\A 39:             color: #FFF;\A 40:             font-size: 1.4rem;\A 41:             font-weight: 700;"; }

@@ -49,6 +49,10 @@
   font-weight: 700;
   line-height: 100%;
   margin-right: 3.2432432432%;
+  cursor: pointer;
+}
+.header .header__container .header__sources:hover {
+  background-color: #640017;
 }
 .header .header__container .header__sources div {
   width: 28px;
@@ -76,6 +80,12 @@
       flex-wrap: wrap;
   row-gap: 5px;
 }
+.header .header__container .header__nav ul a {
+  color: white;
+}
+.header .header__container .header__nav ul a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 590px) {
   .header .header__container .header__nav {
     font-size: 1.2rem;
@@ -99,6 +109,9 @@
   background-image: url("./assets/images/header/user.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+.header .header__container .header__cabinet p:hover {
+  text-decoration: underline;
 }
 @media (min-width: 562px) and (max-width: 992px) {
   .header .header__container .header__cabinet p {
@@ -128,6 +141,9 @@
   background: url("./assets/images/header/vip.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.header .header__container .header__vip p:hover {
+  text-decoration: underline;
 }
 @media (min-width: 562px) and (max-width: 992px) {
   .header .header__container .header__vip {
@@ -339,19 +355,57 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-repeat: no-repeat;
+  padding-left: 32px;
+  background-position: left center;
 }
 .map-section .map-section__container .map-section__list ul li:not(:last-child) {
   margin-bottom: 5px;
 }
 .map-section .map-section__container .map-section__list ul li:hover {
   color: #A20025;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  font-weight: 600;
 }
 .map-section .map-section__container .map-section__list ul li:hover svg rect {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   opacity: 1;
+}
+.map-section .map-section__container .map-section__list ul li.map-list__arx {
+  background-image: url("../assets/images/map/arxeologiya.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__yozma {
+  background-image: url("../assets/images/map/yozma.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__hujjatlar {
+  background-image: url("../assets/images/map/hujjatlar.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__arxiv {
+  background-image: url("../assets/images/map/arxiv.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__fono {
+  background-image: url("../assets/images/map/fono.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__matbuot {
+  background-image: url("../assets/images/map/matbuot.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__memorchilik {
+  background-image: url("../assets/images/map/memorchilik.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__epigrafika {
+  background-image: url("../assets/images/map/epigrafika.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__numizmatika {
+  background-image: url("../assets/images/map/numizmatika.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__muhrlar {
+  background-image: url("../assets/images/map/muhrlar.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__xalq {
+  background-image: url("../assets/images/map/xalq.svg");
+}
+.map-section .map-section__container .map-section__list ul li.map-list__foto {
+  background-image: url("../assets/images/map/foto.svg");
 }
 @media (max-width: 894px) {
   .map-section .map-section__container .map-section__list ul li {

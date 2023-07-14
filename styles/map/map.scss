@@ -21,6 +21,9 @@
                     display: flex;
                     column-gap: 10px;
                     align-items: center;
+                    background-repeat: no-repeat;
+                    padding-left: 32px;
+                    background-position: left center;
 
                     &:not(:last-child) {
                         margin-bottom: 5px;
@@ -28,7 +31,8 @@
 
                     &:hover {
                         color: $main-red;
-                        transition: all 0.5s ease;
+                        // transition: all 0.25s ease;
+                        font-weight: 600;
                         
                         svg {
                             
@@ -39,53 +43,53 @@
                         }
                     }
 
-                    // &.map-list__arx {
-                    //     background-image: url("../assets/images/map/arxeologiya.svg");
-                    // }
+                    &.map-list__arx {
+                        background-image: url("../assets/images/map/arxeologiya.svg");
+                    }
 
-                    // &.map-list__yozma {
-                    //     background-image: url("../assets/images/map/yozma.svg");
-                    // }
+                    &.map-list__yozma {
+                        background-image: url("../assets/images/map/yozma.svg");
+                    }
 
-                    // &.map-list__hujjatlar {
-                    //     background-image: url("../assets/images/map/hujjatlar.svg");
-                    // }
+                    &.map-list__hujjatlar {
+                        background-image: url("../assets/images/map/hujjatlar.svg");
+                    }
 
-                    // &.map-list__arxiv {
-                    //     background-image: url("../assets/images/map/arxiv.svg");
-                    // }
+                    &.map-list__arxiv {
+                        background-image: url("../assets/images/map/arxiv.svg");
+                    }
 
-                    // &.map-list__fono {
-                    //     background-image: url("../assets/images/map/fono.svg");
-                    // }
+                    &.map-list__fono {
+                        background-image: url("../assets/images/map/fono.svg");
+                    }
 
-                    // &.map-list__matbuot {
-                    //     background-image: url("../assets/images/map/matbuot.svg");
-                    // }
+                    &.map-list__matbuot {
+                        background-image: url("../assets/images/map/matbuot.svg");
+                    }
 
-                    // &.map-list__memorchilik {
-                    //     background-image: url("../assets/images/map/memorchilik.svg");
-                    // }
+                    &.map-list__memorchilik {
+                        background-image: url("../assets/images/map/memorchilik.svg");
+                    }
 
-                    // &.map-list__epigrafika {
-                    //     background-image: url("../assets/images/map/epigrafika.svg");
-                    // }
+                    &.map-list__epigrafika {
+                        background-image: url("../assets/images/map/epigrafika.svg");
+                    }
 
-                    // &.map-list__numizmatika {
-                    //     background-image: url("../assets/images/map/numizmatika.svg");
-                    // }
+                    &.map-list__numizmatika {
+                        background-image: url("../assets/images/map/numizmatika.svg");
+                    }
 
-                    // &.map-list__muhrlar {
-                    //     background-image: url("../assets/images/map/muhrlar.svg");
-                    // }
+                    &.map-list__muhrlar {
+                        background-image: url("../assets/images/map/muhrlar.svg");
+                    }
 
-                    // &.map-list__xalq {
-                    //     background-image: url("../assets/images/map/xalq.svg");
-                    // }
+                    &.map-list__xalq {
+                        background-image: url("../assets/images/map/xalq.svg");
+                    }
 
-                    // &.map-list__foto {
-                    //     background-image: url("../assets/images/map/foto.svg");
-                    // }
+                    &.map-list__foto {
+                        background-image: url("../assets/images/map/foto.svg");
+                    }
                 }
 
                 @media (max-width: 894px) {
