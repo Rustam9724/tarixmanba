@@ -35,38 +35,6 @@
                 line-height: 17/14 * 100%;
                 text-transform: uppercase;
             }
-
-            .artifacts__arrows {
-                margin-left: auto;
-                display: flex;
-                column-gap: 10px;
-
-                div {
-                    width: 30px;
-                    height: 30px;
-                    background-color: rgba(36, 36, 36, 0.119);
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    cursor: pointer;
-
-                    &:last-child {
-                        
-                        svg {
-                            transform: rotate(180deg);
-                        }
-                    }
-
-                    &.active {
-                        background-color: rgba(36, 36, 36, 0.4);
-
-                        &:hover {
-                            background-color: $main-red;
-                            transition: all 0.25s ease-out;
-                        }
-                    }
-                }
-            }
         }
 
         .artifacts__items {
