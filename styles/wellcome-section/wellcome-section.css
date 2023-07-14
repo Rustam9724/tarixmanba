@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$main-red".
-        on line 73 of D:\web\Repos\tarixmanba\styles\wellcome-section.scss
+        on line 73 of D:\web\Repos\tarixmanba\styles\wellcome-section\wellcome-section.scss
 
 68:             }
 69:         }
@@ -15,7 +15,7 @@ Error: Undefined variable: "$main-red".
 78:             margin-bottom: 70px;
 
 Backtrace:
-D:\web\Repos\tarixmanba\styles\wellcome-section.scss:73
+D:\web\Repos\tarixmanba\styles\wellcome-section\wellcome-section.scss:73
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-red\".\A         on line 73 of D:\web\Repos\tarixmanba\styles\wellcome-section.scss\A \A 68:             }\A 69:         }\A 70: \A 71:         .wellcome-section__button {\A 72:             padding: 17px 28px 19px;\A 73:             background-color: $main-red;\A 74:             color: #FFF;\A 75:             font-size: 1.4rem;\A 76:             font-weight: 700;\A 77:             line-height: 100%;\A 78:             margin-bottom: 70px;"; }
+  content: "Error: Undefined variable: \"$main-red\".\A         on line 73 of D:\web\Repos\tarixmanba\styles\wellcome-section\wellcome-section.scss\A \A 68:             }\A 69:         }\A 70: \A 71:         .wellcome-section__button {\A 72:             padding: 17px 28px 19px;\A 73:             background-color: $main-red;\A 74:             color: #FFF;\A 75:             font-size: 1.4rem;\A 76:             font-weight: 700;\A 77:             line-height: 100%;\A 78:             margin-bottom: 70px;"; }
