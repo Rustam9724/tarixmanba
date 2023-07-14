@@ -1120,6 +1120,7 @@
 }
 .history .history__container .carousel__arrows div {
   background-color: rgba(36, 36, 36, 0.3);
+  cursor: pointer;
 }
 .history .history__container .carousel__arrows div.active {
   background-color: #242424;
@@ -1154,6 +1155,12 @@
   font-weight: 600;
   line-height: 100%;
   text-align: center;
+  cursor: pointer;
+}
+.history .history__container .history__button:hover {
+  background-color: #640017;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .info-section {
