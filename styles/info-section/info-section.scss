@@ -1,0 +1,20 @@
+.info-section {
+    margin-bottom: 70px;
+    color: $title-color;
+
+    .info-section__container {
+
+        .info-section__title {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 37/30 * 100%;
+            margin-bottom: 20px;
+        }
+
+        .info-section__text {
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 181.25%;
+        }
+    }
+}

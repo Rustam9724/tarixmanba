@@ -1,0 +1,24 @@
+.footer {
+  padding: 31px 29px;
+  background-color: #A07048; }
+  .footer .footer__container {
+    max-width: 1804px;
+    display: flex;
+    justify-content: space-between; }
+    .footer .footer__container .footer__text {
+      color: #FFF;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 118.75%;
+      text-align: center; }
+  @media (max-width: 767px) {
+    .footer .footer__container {
+      flex-direction: column;
+      row-gap: 20px;
+      align-items: center; } }
+
+@media (max-width: 439px) {
+  .footer {
+    padding: 31px 9px; } }
+
+/*# sourceMappingURL=footer.css.map */

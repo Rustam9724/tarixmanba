@@ -1,0 +1,33 @@
+.footer {
+    padding: 31px 29px;
+    background-color: #A07048;
+
+    .footer__container {
+        max-width: 1804px;
+        display: flex;
+        justify-content: space-between;
+
+        
+        .footer__text {
+            color: #FFF;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 19/16 * 100%;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .footer__container {
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 439px) {
+    .footer {
+        padding: 31px 9px;
+    }
+}
